@@ -32,7 +32,7 @@ npm install
 
 4. Start the server:
 
-npm start
+npx ts-node index.ts
 
 
 
