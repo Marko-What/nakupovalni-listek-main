@@ -35,7 +35,7 @@ git clone https://github.com/Marko-What/nakupovalni-listek
 cd your-repo
 cd server
 npm install
-npm start
+npx ts-node index.ts
 
 cd path/to/your-repo/client
 npm install
