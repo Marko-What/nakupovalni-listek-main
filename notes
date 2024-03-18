@@ -1,0 +1,88 @@
+Web Vitals" is a term used to refer to a set of metrics that are essential for measuring the user experience of a web application. These metrics focus on various aspects of user experience, such as page loading speed, interactivity, and visual stability. They are crucial for understanding and improving how users perceive the performance of a website.
+
+
+can you explan what is best Web Vitals"
+choice for application like
+
+Naslov: Kot član družine imam nakupovalni listek, ki ga polnijo vsi člani družine in s katerim lahko grem v trgovino.
+
+Opis:
+- Potrebujem aplikacijo "nakupovalni listek", kjer lahko različni uporabniki dodajajo, urejajo in brišejo predmete, ki jih bo moral nekdo kasneje iskati v trgovino.
+- Tisti, ki gre v trgovino, mora imeti možnost odkljukati predmete (check/uncheck), ki jih je nabavil, kot bi prečrtal na nakupovalnem listku.
+- Prva verzija ima samo "en spisek” (one list for all users), ki ga vsi urejajo. Ne omogoča več nakupovalnih listkov.
+- Naj bo uporabniška izkušnja navdušila uporabnika.
+- Uporabnik lahko zbriše vse elemente.
+- Uporabnik lahko izvozi podatke v JSON datoteko in jo tudi uvozi. Prenesejo se vsa stanja (checked/unchecked, …). Pazi na konflikte pri uvažanju čez obstoječe podatke.
+- Uvoz/izvoz dela tudi preko CLI komande.
+
+Kazalniki/QA:
+* Dva različna uporabnika lahko vpišeta predmet na isti listek.
+* Vsak uporabnik vidi vse vpisano in stanje vpisanega.
+* En uporabnik pobriše predmet drugega uporabnika. Posledica se vidi pri drugem uporabniku.
+* En uporabnik odkljuka predmet kot "kupljen". Posledica se vidi pri drugem uporabniku.
+* En uporabnik izvozi podatke.
+* En uporabnik uvozi podatke. Isti podatki se osvežijo, se ne duplicirajo.
+
+Arhitektura, design, programski jezik, framework, ki ga boš uporabil, je tvoja izbira. 
+Ker smo agilni, je pomembno, da izbereš takšna orodja, kjer boš dosegel cilj najhitreje in seveda najbolj kvalitetno.  Izdelek mora delovati v vseh scenarijih dnevne uporabe. Mora biti pregleden na ekranu telefona in na računalniku.
+
+application should be robust and scalable, module
+
+most important must be robust ..
+what are 
+
+
+
+observer design pattern in a sense of notfiyng other clients about a change in a state.
+example updating ui
+
+not in a sense of like card updates
+
+6. Observer Pattern for Cart Updates
+
+The Observer pattern can be used to notify various parts of the application when changes occur in the shopping cart (e.g., item added, removed, or quantity updated). For example, updating the UI to reflect the current number of items in the cart or recalculating the total price whenever the cart contents change.
+
+
+
+. Model-View-Controller (MVC) Pattern
+
+The MVC pattern is a classical structural organization for web applications, separating the data model (the structure of the shopping cart items), the view (how the shopping cart is presented in the UI), and the controller (the logic that responds to user input, like adding or removing items). This separation facilitates maintainability and scalability.
+
+
+3. Microservices Architecture
+
+In a microservices architecture, the shopping cart functionality is built as an independent, scalable service that communicates with other services (e.g., product catalog, user account management) via well-defined APIs. This approach improves the flexibility and scalability of the application, allowing each service to be developed, deployed, and scaled independently.
+
+
+managing sockets when many microservice
+
+GPT
+
+Managing sockets in a microservices architecture, especially when dealing with real-time data exchange or notifications, requires careful planning and implementation to ensure scalability, reliability, and maintainability. Here are strategies and technologies that can help manage WebSocket connections 
+
+effectively across many microservices:
+
+1. API Gateway
+
+An API Gateway acts as the single entry point for all clients. It can manage socket connections and route messages to the appropriate microservices. This simplifies client-side connectivity and allows the gateway to handle cross-cutting concerns like authentication, logging, and load balancing.
+
+
+
+mvc ui
+state managment
+ Context API or Redux to manage the shopping list state across the application.
+
+
+ unsigned certificate
+
+
+ functional components for managing state ...
+
+ fault tolerance, reconectivity, network issues, local storage data, refresh
+
+error handling
+working in every situation
+
+
+scale
+many nakupovalnih listkov ..
