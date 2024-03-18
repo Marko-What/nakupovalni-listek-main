@@ -1,7 +1,9 @@
 
 # Unified Todo List Application with Real-time Capabilities
 
-    Todo List application, a full-stack project that demonstrates the power of real-time web technologies. This application is built using React for the frontend and Node.js for the backend, with WebSockets facilitating live updates across client and server. It's designed to offer users a seamless experience in managing their todo lists.
+    Todo List application, a full-stack project that demonstrates the power of real-time web technologies.
+    This application is built using React for the frontend and Node.js for the backend, with WebSockets facilitating live updates across client and server.
+    It's designed to offer users a seamless experience in managing their todo lists.
 
 ## Features
 
