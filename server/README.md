@@ -20,7 +20,7 @@ To get this application running on your local machine, follow these steps:
 
 1. Clone the repository:
 
-git clone https://example.com/your-repo.git
+git clone [[https://example.com/your-repo.git](https://github.com/Marko-What/nakupovalni-listek-main.git)](https://github.com/Marko-What/nakupovalni-listek-main.git)
 
 2. Navigate into the project directory:
 
